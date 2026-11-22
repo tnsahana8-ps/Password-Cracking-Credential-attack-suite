@@ -1,0 +1,42 @@
+SYSTEM ARCHITECTURE
+==================
+
+Project Title:
+Password Cracking & Credential Attack Suite
+
+1. USER INTERFACE
+   The user interacts with the application through a Streamlit web interface.
+
+2. MAIN APPLICATION
+   The app.py file manages navigation and connects the different modules.
+
+3. PASSWORD STRENGTH ANALYZER
+   Evaluates password length, uppercase letters, lowercase letters,
+   digits, and special characters.
+
+4. DICTIONARY GENERATOR
+   Creates a sample password dictionary using predefined words
+   and variations.
+
+5. HASH GENERATOR
+   Generates SHA-256 password hashes and performs basic
+   hash-format identification.
+
+6. ATTACK SIMULATOR
+   Demonstrates offline dictionary-based testing using
+   synthetic sample passwords.
+
+7. SECURITY AUDIT REPORT
+   Collects available audit results and generates a
+   downloadable JSON report.
+
+8. OUTPUT
+   Displays analysis results, simulation results,
+   generated dictionaries, and security audit reports.
+
+TECHNOLOGIES
+============
+Programming Language: Python
+Web Framework: Streamlit
+Libraries: hashlib, pandas, matplotlib
+Operating Environment: Kali Linux

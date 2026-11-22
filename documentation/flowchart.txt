@@ -1,0 +1,37 @@
+START
+                |
+                v
+       Open Streamlit Application
+                |
+                v
+         Select a Module
+                |
+      __________|___________
+     |          |           |
+     v          v           v
+ Password   Dictionary    Hash
+ Analyzer   Generator   Generator
+     |          |           |
+     v          v           v
+ Analyze     Generate    Generate
+ Password    Dictionary   SHA-256
+     |          |           |
+     |__________|___________|
+                |
+                v
+       Attack Simulator
+                |
+                v
+       Run Offline Test
+                |
+                v
+       Display Results
+                |
+                v
+       Security Audit
+                |
+                v
+       Generate JSON Report
+                |
+                v
+               END
